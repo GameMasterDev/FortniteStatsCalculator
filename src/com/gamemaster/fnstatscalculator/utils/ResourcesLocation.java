@@ -6,8 +6,8 @@ import java.net.URL;
 
 public class ResourcesLocation {
 
-    public static URL getImg(String p_0005) {
-        return Main.class.getResource("/img/" + p_0005);
+    public static URL getImg(String location) {
+        return Main.class.getResource("/img/" + location);
     }
 
 }

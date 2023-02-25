@@ -2,22 +2,22 @@ package com.gamemaster.fnstatscalculator.utils;
 
 public class Logger {
 
-    private String p_0002;
+    private String loggerName;
 
-    public Logger(String p_0001) {
-        this.p_0002 = p_0001;
+    public Logger(String loggerName) {
+        this.loggerName = loggerName;
     }
 
-    public void sendLog(String p_0003) {
-        System.out.println("[" + this.p_0002 + "/INFO] " + p_0003);
+    public void sendLog(String log) {
+        System.out.println("[" + this.loggerName + "/INFO] " + log);
     }
 
-    public void sendWarn(String p_0004) {
-        System.out.println("[" + this.p_0002 + "/WARN] " + p_0004);
+    public void sendWarn(String warn) {
+        System.out.println("[" + this.loggerName + "/WARN] " + warn);
     }
 
     public String getLoggerName() {
-        return this.p_0002;
+        return this.loggerName;
     }
 
 }
