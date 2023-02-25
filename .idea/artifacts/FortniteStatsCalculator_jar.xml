@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FortniteStatsCalculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FortniteStatsCalculator</output-path>
+    <root id="archive" name="FortniteStatsCalculator.jar">
+      <element id="module-output" name="FortniteStatsCalculator" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/java-discord-rpc-2.0.1-all.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
